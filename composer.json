@@ -1,0 +1,24 @@
+{
+  "name": "roquie/circleci-php-sdk",
+  "description": "Small library to trigger CI build and maybe it will a full-fledged API wrapper.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "roquie",
+      "email": "roquie0@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^4.2",
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roquie\\CircleSdk\\": "src"
+    }
+  }
+}
