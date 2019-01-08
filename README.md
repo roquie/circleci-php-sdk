@@ -14,8 +14,15 @@ composer install roquie/circleci-php-sdk
 
 ## Usage
 
-```php
+Token can be passed to constructor or use global `CIRCLECI_TOKEN` env variable.
 
+```php
+$ci = new \Roquie\CircleSdk\CircleCI($token, $vcsType);
+$ci->setUsername('microparts');
+$ci->setProject('protocall-build-mock');
+$results = $ci->triggerNewJob();
+
+echo $results['build_url'];
 ```
 
 ## License

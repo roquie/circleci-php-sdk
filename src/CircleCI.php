@@ -8,7 +8,7 @@
 
 namespace Roquie\CircleSdk;
 
-use JsonException;
+//use JsonException;
 use Roquie\CircleSdk\Exception\CircleException;
 
 final class CircleCI
