@@ -9,7 +9,7 @@ But if for me or for you need new features, they will be added via PR.
 ## Installation
 
 ```
-composer install roquie/circleci-php-sdk
+composer require roquie/circleci-php-sdk
 ```
 
 ## Usage
